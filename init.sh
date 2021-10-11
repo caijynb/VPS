@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 read -p "输入系统的新密码:" newpass
 
 # let expect can access ${newpass}
