@@ -6,3 +6,14 @@
 （需要重启后手动`./tcp.sh`输入数字7开启加速）
 
 
+## network.sh
+用于安装代理软件的脚本
+### ssr
+用的是秋水逸冰的脚本，配置文件去`/etc/shadowsocks.json`改
+
+完事`/etc/init.d/shadowsocks restart`重启一下
+
+### v2ray
+todo
+
+### tgproxy
