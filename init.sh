@@ -35,7 +35,7 @@ EOF
 
 apt update
 sleep 5
-apt install python3.9 python3.9-distutils python3.9-dev -y
+apt install python3.9 python3.9-distutils python3.9-dev python3.9-gdbm -y
 if python3.9 --version;then
   rm /usr/bin/python3
   ln -s /usr/bin/python3.9 /usr/bin/python3
