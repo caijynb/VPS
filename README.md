@@ -20,3 +20,6 @@ todo
 https://github.com/HirbodBehnam/MTProtoProxyInstaller
 
 python版
+
+## goinstall.sh
+用于安装go
