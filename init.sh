@@ -6,7 +6,7 @@ export newpass=${newpass}
 
 # install necessary software
 apt update
-apt install expect curl vim git -y
+apt install expect curl vim git screen -y
 
 # change passwd
 /usr/bin/expect << EOF
