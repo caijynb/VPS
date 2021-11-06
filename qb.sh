@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# docker安装
-curl -fsSL get.docker.com -o get-docker.sh
-sh get-docker.sh
-systemctl enable docker
-
 # 启动qbittorrent
 docker run -d \
   --name=qbittorrent \
